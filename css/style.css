@@ -1,19 +1,237 @@
-
-#logo{
-    text-decoration: none;
-    color: #000;
+*{
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
 }
 
 header nav ul{
- margin: 1rem 0 0 0;
- padding: 0;
+ margin: 10px;
+ padding: 5px;
  display: flex;
  gap: calc(1em + 1vw);
  justify-content: right;
  list-style: none;
+ font-weight: bold;
 }
 
 nav a{
     text-decoration: none;
     color: #000;
+    font-size: 20px;
+}
+
+footer{
+    display: flex;
+    color: #fff;
+    background-color: #252525;
+    padding:2rem;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+.contact-btn{
+    background-color: #e6bd43;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    margin: 20px 10px;
+    padding: 10px 20px;
+}
+
+.compelingheadline{
+    position: relative;
+    text-align: center;
+    background-color: rgb(202, 202, 202);
+    padding: 20px 10px;
+}
+.compelingheadline h1{
+    font-size: 50px;
+}
+.our-services-btn{
+    background-color: #e6bd43;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    padding: 10px 5px;
+    margin: 10px 20px;
+}
+
+.engangingsubheading{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.engangingsubheading h1{
+    font-size: 30px;
+}
+.ourcompany{
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+}
+.ourcompany h1{
+    font-size: 20px;
+}
+.ourcompany img{
+    float: left;
+    margin-right: 50px;
+}
+#our-services{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem;  
+}
+
+#our-services h1{
+    text-align: center;
+    width: 100%;
+}
+
+#our-servies article{
+    text-align: center;
+    align-items: center;
+}
+.more-about-btn{
+    background-color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+
+.newsletter{
+    padding: 1rem;
+    justify-content: center;    
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:rgb(241, 241, 241);
+    text-align: center;
+}
+.newsletter h1{
+    width: 100%;
+    text-align: center;
+}
+.text-btn{
+    border: none;
+    text-align: center;
+    padding: 10px 20px;
+}
+.sign-me-up-btn{
+    background-color: #e6bd43;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.portfolio{
+    font-size: 50px;
+    text-align:center;
+    background-color: rgb(202,202,202);
+    padding: 20px 10px;
+}
+
+.links-btn{
+    background-color: #fff;
+    font-weight: lighter;
+    width: 100px;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.joblinks{
+    justify-content:space-between
+}
+
+#branding{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem; 
+    max-width: 350px; 
+    min-width: 200px;
+}
+
+#design{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem;  
+    max-width: 350px;
+    min-width: 200px;
+}
+
+#development{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem;  
+    max-width: 350px;
+    min-width: 200px;
+}
+.aboutus{
+    text-align: center;
+    background-color: rgb(202, 202, 202);
+    padding: 20px 10px;
+}
+
+.aboutus h1{
+    font-size: 40px;
+}
+
+.contactus-btn{
+    background-color: #e6bd43;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.services{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 1rem;  
+}
+
+.services h1{
+    text-align: center;
+    width: 100%;
+}
+
+.our-clients{
+    text-align: center;
+    background-color: #e6bd43;
+    padding: 20px 10px;
+}
+
+.message{
+    background-color: #e6bd43;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+#contactus{
+    background-color: rgb(239, 236, 236);
+    margin: 0 auto;
+    
+}
+#contactus h1{
+    text-align: center;
+    font-size: 30px;
+    padding: 20px 10px;
 }
